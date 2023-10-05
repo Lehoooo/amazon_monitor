@@ -1,0 +1,10 @@
+version: '3'
+services:
+  amazon_bot:
+    build:
+      context: .
+    restart: always
+    network_mode: 'host'
+    container_name: amazon_bot
+    volumes:
+      - ./aaa.txt:/app/aaa.txt
