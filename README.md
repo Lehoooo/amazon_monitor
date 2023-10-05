@@ -1,6 +1,3 @@
-# amazon_monitor
-
-
 # Setup
 create a file "aaa.txt" for the item logs,
 
